@@ -1,0 +1,12 @@
+C:\Users\Amina\Desktop\Chatly\NewChatly\ChatlyApp.Domain\bin\Debug\net10.0\ChatlyApp.Domain.deps.json
+C:\Users\Amina\Desktop\Chatly\NewChatly\ChatlyApp.Domain\bin\Debug\net10.0\ChatlyApp.Domain.dll
+C:\Users\Amina\Desktop\Chatly\NewChatly\ChatlyApp.Domain\bin\Debug\net10.0\ChatlyApp.Domain.pdb
+C:\Users\Amina\Desktop\Chatly\NewChatly\ChatlyApp.Domain\obj\Debug\net10.0\ChatlyApp.Domain.csproj.AssemblyReference.cache
+C:\Users\Amina\Desktop\Chatly\NewChatly\ChatlyApp.Domain\obj\Debug\net10.0\ChatlyApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amina\Desktop\Chatly\NewChatly\ChatlyApp.Domain\obj\Debug\net10.0\ChatlyApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Amina\Desktop\Chatly\NewChatly\ChatlyApp.Domain\obj\Debug\net10.0\ChatlyApp.Domain.AssemblyInfo.cs
+C:\Users\Amina\Desktop\Chatly\NewChatly\ChatlyApp.Domain\obj\Debug\net10.0\ChatlyApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Amina\Desktop\Chatly\NewChatly\ChatlyApp.Domain\obj\Debug\net10.0\ChatlyApp.Domain.dll
+C:\Users\Amina\Desktop\Chatly\NewChatly\ChatlyApp.Domain\obj\Debug\net10.0\refint\ChatlyApp.Domain.dll
+C:\Users\Amina\Desktop\Chatly\NewChatly\ChatlyApp.Domain\obj\Debug\net10.0\ChatlyApp.Domain.pdb
+C:\Users\Amina\Desktop\Chatly\NewChatly\ChatlyApp.Domain\obj\Debug\net10.0\ref\ChatlyApp.Domain.dll

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ChatlyApp.API/ChatlyApp.API.csproj" />
+  <Project Path="ChatlyApp.Application/ChatlyApp.Application.csproj" />
+  <Project Path="ChatlyApp.Domain/ChatlyApp.Domain.csproj" />
+  <Project Path="ChatlyApp.Infrastructure/ChatlyApp.Infrastructure.csproj" />
+</Solution>
