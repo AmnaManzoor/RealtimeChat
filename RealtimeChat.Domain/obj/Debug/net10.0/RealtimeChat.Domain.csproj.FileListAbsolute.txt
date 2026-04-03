@@ -1,0 +1,13 @@
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Domain\bin\Debug\net10.0\RealtimeChat.Domain.deps.json
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Domain\bin\Debug\net10.0\RealtimeChat.Domain.dll
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Domain\bin\Debug\net10.0\RealtimeChat.Domain.pdb
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Domain\obj\Debug\net10.0\RealtimeChat.Domain.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Domain\obj\Debug\net10.0\RealtimeChat.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Domain\obj\Debug\net10.0\RealtimeChat.Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Domain\obj\Debug\net10.0\RealtimeChat.Domain.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Domain\obj\Debug\net10.0\RealtimeChat.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Domain\obj\Debug\net10.0\RealtimeChat.Domain.sourcelink.json
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Domain\obj\Debug\net10.0\RealtimeChat.Domain.dll
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Domain\obj\Debug\net10.0\refint\RealtimeChat.Domain.dll
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Domain\obj\Debug\net10.0\RealtimeChat.Domain.pdb
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Domain\obj\Debug\net10.0\ref\RealtimeChat.Domain.dll

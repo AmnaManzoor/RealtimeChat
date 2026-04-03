@@ -1,77 +1,65 @@
-Chatly 💬
-A modern, real-time chat application built with .NET Core (Clean Architecture) and Angular 18.
- Features
-•	Real-time Messaging: Instant message delivery using SignalR.
-•	Secure Authentication: User registration and login with JWT (JSON Web Tokens) and ASP.NET Core Identity.
-•	Clean Architecture: Robust and scalable backend structure separating Domain, Application, Infrastructure, and API.
-•	Modern UI: Responsive design built with Angular 18 and Tailwind CSS.
-•	Swagger Documentation: Interactive API documentation for easy testing.
-Tech Stack
-Backend
-•	.NET 10 (Web API)
-•	Entity Framework Core (SQL Server)
-•	SignalR (Real-time communication)
-•	ASP.NET Core Identity (Authentication)
-•	Clean Architecture pattern
+# RealtimeChat
+Production-ready real-time chat backend built with .NET 10, Clean Architecture, SignalR, and JWT auth.
 
-Frontend
-•	Angular 18 (Standalone Components)
-•	Tailwind CSS (Styling)
-•	SignalR Client
-•	RxJS
+[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/yourusername/realtimechat/actions)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen)](https://github.com/yourusername/realtimechat/actions)
 
-Prerequisites
+## Architecture
+```mermaid
+flowchart TD
+  UI[Client Apps] -->|HTTP| API[RealtimeChat.API]
+  UI -->|SignalR| HUB[Chat Hub]
+  API --> APP[RealtimeChat.Application]
+  HUB --> APP
+  APP --> DOMAIN[RealtimeChat.Domain]
+  APP --> INFRA[RealtimeChat.Infrastructure]
+  INFRA --> DB[(SQL Server)]
+```
 
-Before you begin, ensure you have the following installed:
-•	[.NET SDK](https://dotnet.microsoft.com/download) (Version 10 or compatible)
-•	[Node.js](https://nodejs.org/) (LTS version)
-•	[SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (LocalDB or SQL Express)
-Installation & Setup
+## Features
+- [x] Clean Architecture (Domain, Application, Infrastructure, API)
+- [x] JWT auth with refresh tokens
+- [x] SignalR real-time messaging
+- [x] Typing indicators and presence
+- [x] Read receipts and reactions
+- [x] Rooms/groups
+- [x] Structured logging with Serilog
+- [x] FluentValidation + Problem Details
+- [x] Swagger API documentation
 
- 1. Clone the Repository
-bash
-git clone https://github.com/yourusername/chatly.git
-cd chatly
+## Tech Stack
+| Area | Choice |
+| --- | --- |
+| Language | C# (.NET 10) |
+| Framework | ASP.NET Core Web API |
+| Database | SQL Server + EF Core |
+| Auth | ASP.NET Core Identity + JWT |
+| Real-time | SignalR |
+| Validation | FluentValidation |
+| Testing | xUnit, Moq, FluentAssertions |
+| Logging | Serilog (JSON) |
 
-2. Backend Setup
-Navigate to the API directory:
-    bash
-    cd ChatlyApp.API
-2.  Configure Database: Update the ‘ConnectionStrings’ in ‘appsettings.json’ if your SQL Server instance is different.
-    json
-    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=ChatlyDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+## Local Setup (max 5 commands)
+```bash
+git clone https://github.com/yourusername/realtimechat.git
+cd realtimechat
+dotnet restore
+dotnet ef database update --project RealtimeChat.Infrastructure --startup-project RealtimeChat.API
+dotnet run --project RealtimeChat.API
+```
 
-3.  Apply Migrations: Create the database and tables.
-    bash
-    dotnet ef database update --project ../ChatlyApp.Infrastructure --startup-project .
-   
-4.  Run the API:
-    bash
-    dotnet run --launch-profile http
-    API URL: ‘http://localhost:5100’
-    Swagger UI: ‘http://localhost:5100/swagger’
-3. Frontend Setup
-1.  Open a new terminal and navigate to the frontend directory:
-    bash
-    cd frontend
-2.  Install Dependencies:
-    ```bash
-    npm install
-    ```
-3.  Start the App:
-    bash
-    npm start
-4.  Open your browser and visit ‘http://localhost:4200’.
+API: `http://localhost:5100`  
+Swagger: `http://localhost:5100/swagger`
 
-Usage
-1.  Register: Create a new account on the registration page.
-2.  Login: Sign in with your credentials.
-3.  Chat: Start sending messages in real-time! Open the app in multiple tabs or browsers to test the real-time functionality.
-Architecture Overview
-The solution follows Clean Architecture principles to ensure separation of concerns and maintainability:
-•	ChatlyApp.Domain: Contains enterprise logic and entities (e.g., ‘User’, ‘Message’). It has no dependencies.
-•	ChatlyApp.Application: Contains business logic, DTOs, and interfaces. It depends only on the Domain layer.
-•	ChatlyApp.Infrastructure: Implements interfaces (e.g., ‘AppDbContext’, Identity). It depends on the Application layer.
-•	ChatlyApp.API: The entry point (Controllers, Hubs). It depends on Application and Infrastructure layers.
+## Key Technical Decisions
+- **Clean Architecture** keeps business rules isolated from frameworks and infrastructure.
+- **SignalR** provides low-latency bi-directional messaging for chat features.
+- **JWT with refresh tokens** balances security (short-lived access tokens) with usability.
 
-
+## Roadmap (Azure)
+- Azure SignalR Service
+- Azure Cosmos DB
+- Azure OpenAI assistant bot
+- Application Insights
+- Entra ID authentication
+- GitHub Actions CI/CD

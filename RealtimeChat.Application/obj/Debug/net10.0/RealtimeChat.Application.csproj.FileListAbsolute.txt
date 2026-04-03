@@ -1,0 +1,16 @@
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\obj\Debug\net10.0\RealtimeChat.Application.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\obj\Debug\net10.0\RealtimeChat.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\obj\Debug\net10.0\RealtimeChat.Application.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\obj\Debug\net10.0\RealtimeChat.Application.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\obj\Debug\net10.0\RealtimeChat.Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\obj\Debug\net10.0\RealtimeChat.Application.sourcelink.json
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\bin\Debug\net10.0\RealtimeChat.Application.deps.json
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\bin\Debug\net10.0\RealtimeChat.Application.dll
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\bin\Debug\net10.0\RealtimeChat.Application.pdb
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\bin\Debug\net10.0\RealtimeChat.Domain.dll
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\bin\Debug\net10.0\RealtimeChat.Domain.pdb
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\obj\Debug\net10.0\Realtime.F4B9BD7A.Up2Date
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\obj\Debug\net10.0\RealtimeChat.Application.dll
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\obj\Debug\net10.0\refint\RealtimeChat.Application.dll
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\obj\Debug\net10.0\RealtimeChat.Application.pdb
+C:\Users\Admin\Desktop\Resume\General\chatly\RealtimeChat\RealtimeChat.Application\obj\Debug\net10.0\ref\RealtimeChat.Application.dll
